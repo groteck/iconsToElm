@@ -1,0 +1,16 @@
+<% // This template adds a function per icon into the Icon.elm file %>
+
+
+icon<%= elmFunction.name %>: Html msg
+icon<%= elmFunction.name %> =
+    let
+        inlineSvg =
+            """
+            <%- elmFunction.body %>
+            """
+    in
+    case (parse inlineSvg) of
+        Ok html ->
+            html
+        Err _ ->
+            Html.text "failure on svg icon <%= elmFunction.name %>"

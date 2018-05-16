@@ -1,0 +1,17 @@
+{
+  "name": "iconsToElm",
+  "version": "1.0.0",
+  "description": "Convert a directory with svg files into an Elm icon module",
+  "main": "index.js",
+  "author": "Coya Ag",
+  "license": "BSD3",
+  "bin": {
+    "iconsToElm": "./cli.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "elm": "^0.18.0",
+    "elm-format": "^0.6.1-alpha",
+    "progress": "^2.0.0"
+  }
+}
