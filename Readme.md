@@ -4,7 +4,7 @@ This `CLI` tool creates an Assets.elm file from a directory with svg files.
 ## Install
 
 ```bash
-yarn add iconsToElm
+yarn add icons-to-elm
 ```
 
 ## Use the cli
