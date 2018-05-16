@@ -39,3 +39,9 @@ main =
 ```
 
 **NOTE:** You can check the `example` directory for extra help.
+
+## Icons
+
+The icons used to test the SVG transformation are licensed under *GPL / CC BY 4.0*
+
+You can get and check to get more information. [icomoon](https://icomoon.io/#home)
