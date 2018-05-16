@@ -1,6 +1,6 @@
 {
   "name": "icons-to-elm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a directory with svg files into an Elm icon module",
   "main": "index.js",
   "author": "Coya Ag",
