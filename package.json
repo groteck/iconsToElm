@@ -1,10 +1,11 @@
 {
-  "name": "iconsToElm",
+  "name": "icons-to-elm",
   "version": "1.0.0",
   "description": "Convert a directory with svg files into an Elm icon module",
   "main": "index.js",
   "author": "Coya Ag",
   "license": "BSD3",
+  "repository": "https://github.com/groteck/iconsToElm",
   "bin": {
     "iconsToElm": "./cli.js"
   },
