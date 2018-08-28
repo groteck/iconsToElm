@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 const parseDir = require('./src/parse-directory.js');
-const svgGen = require('./src/elm-svg-generator.js');
 const ProgressBar = require('progress')
 const ejs = require('ejs')
 
